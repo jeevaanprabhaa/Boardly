@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e3f2fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.success-container {
+  max-width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.success-box h1 {
+  color: #28a745;
+  font-size: 26px;
+}
+
+.success-box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.ticket-summary {
+  margin: 20px 0;
+  text-align: left;
+  background: #f1f8ff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.ticket-summary p {
+  margin: 8px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .success-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .success-box h1 {
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
